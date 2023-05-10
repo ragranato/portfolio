@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    background-color: rgba(224, 224, 224, 0.8);
+    background-color: rgba(224, 224, 224, 0.55);
     z-index: 10;
 }
 
@@ -65,4 +65,28 @@ header h2 {
     background-color: rgba(248, 243, 243, 0.1); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
+  }
+
+  #banner {
+    display: flex;
+    width: 100%;
+    padding-top: 15rem;
+    color: whitesmoke;
+    flex-wrap: wrap;
+  }
+
+  #banner h1 {
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  #banner h2 {
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    margin: 0;
   }
