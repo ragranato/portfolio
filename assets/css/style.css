@@ -64,13 +64,13 @@ header h2 {
     bottom: 0;
     background-color: rgba(248, 243, 243, 0.1); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    /* cursor: pointer; Add a pointer on hover */
   }
 
   #banner {
     display: flex;
     width: 100%;
-    padding-top: 15rem;
+    padding-top: 20rem;
     color: whitesmoke;
     flex-wrap: wrap;
   }
@@ -89,4 +89,29 @@ header h2 {
     padding-left: 1rem;
     font-size: 3rem;
     margin: 0;
+  }
+
+  #about {
+    padding-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: whitesmoke;
+  }
+
+  #about p {
+    width: 80%;
+    font-size: 1.5rem;    
+    line-height: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+
+  #about h3 {
+    font-size: 2rem;
+    justify-self: flex-start;
+    padding-right: 7rem;
+    /* position: relative;
+    left: 10rem; */
   }
