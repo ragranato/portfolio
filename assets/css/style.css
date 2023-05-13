@@ -95,8 +95,13 @@ header h2 {
     padding-top: 15rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     color: whitesmoke;
+  }
+
+  #about article {
+    display: flex;
+    justify-content: flex-end;
   }
 
   #about p {
@@ -105,13 +110,15 @@ header h2 {
     line-height: 3rem;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 1.5rem;    
   }
 
   #about h3 {
-    font-size: 2rem;
-    justify-self: flex-start;
+    font-size: 2rem;    
     padding-right: 7rem;
-    /* position: relative;
-    left: 10rem; */
+  }
+
+  #about-article {
+    display: none;
+    /* visibility: hidden; */
   }
