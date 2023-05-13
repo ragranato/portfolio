@@ -29,6 +29,15 @@ header h2 {
     font-weight: 500;
     font-size: 1.75rem;
     color: navy;
+    padding-left: 2rem;
+}
+
+i {
+  z-index: 10;
+  color: navy;
+  align-self: center;
+  justify-self: flex-start;
+  padding-right: 10rem;
 }
 
 #header-nav {
@@ -132,7 +141,8 @@ header h2 {
   }
 
   .title:hover {
-    color: gray;
+    color: black;
+    background-color: whitesmoke;
     cursor: pointer;
   }
 
@@ -163,7 +173,7 @@ header h2 {
     z-index: 10;
     list-style-type: none;
     color: whitesmoke;
-    justify-content: center;    
+    justify-content: space-around;    
   }
 
   #portfolio-list li {
@@ -174,8 +184,7 @@ header h2 {
     z-index: 10;
     list-style-type: none;
     color: whitesmoke;
-    cursor: pointer;
-    
+    cursor: pointer;    
   }
 
   .portimg {
