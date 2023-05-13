@@ -1,12 +1,13 @@
-const about = document.getElementById('about-article');
-const aboutHeader = document.getElementById('about-header');
 
-console.log(about)
-
-const reveal = (event) => {
-    event.style.display = 'flex';
+const toggle = (element) => {
+    const about = document.getElementById(element);
+    if (about.style.display === 'none') {
+        about.style.display = 'block';
+    } else {
+        about.style.display = 'none';
+    }
 }
 
-aboutHeader.onclick = reveal(about);
+
 
 
