@@ -110,15 +110,76 @@ header h2 {
     line-height: 3rem;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    padding: 1.5rem;    
+    padding: 1.5rem; 
+    margin: 3rem;   
   }
 
-  #about h3 {
-    font-size: 2rem;    
-    padding-right: 7rem;
+  .title-div {
+    width: 100%;
+  }
+
+  .title {
+    background-color: transparent;
+    font-size: 2rem;
+    color: whitesmoke;    
+    position: relative;
+    left: 5rem;
+    border: none;
+    z-index: 10;
+    
+  }
+
+  .title:hover {
+    color: gray;
+    cursor: pointer;
   }
 
   #about-article {
-    display: none;
-    /* visibility: hidden; */
+    display: none;    
   }
+
+  #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    justify-content: flex-end;
+  }
+  
+  #portfolio article {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    margin: 3rem;
+    justify-self: center;
+    border-radius: 10px;
+  }
+  
+
+  #portfolio-list {
+    display: flex;
+    z-index: 10;
+    list-style-type: none;
+    color: whitesmoke;
+    justify-content: center;    
+  }
+
+  #portfolio-list li {
+    padding: 5rem;
+  }
+
+  #portfolio-list li a {
+    z-index: 10;
+    list-style-type: none;
+    color: whitesmoke;
+    cursor: pointer;
+    
+  }
+
+  .portimg {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  /* #portfolio-article {
+    display: none;
+  } */

@@ -1,8 +1,12 @@
-let about = document.getElementById('about-article');
-let aboutHeader = document.getElementById('about-header');
+const about = document.getElementById('about-article');
+const aboutHeader = document.getElementById('about-header');
 
-const reveal = (element) => {
-    element.style.display = 'block';
+console.log(about)
+
+const reveal = (event) => {
+    event.style.display = 'flex';
 }
 
 aboutHeader.onclick = reveal(about);
+
+
