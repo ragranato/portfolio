@@ -76,122 +76,156 @@ i {
     /* cursor: pointer; Add a pointer on hover */
   }
 
-  #banner {
-    display: flex;
-    width: 100%;
-    padding-top: 20rem;
-    color: whitesmoke;
-    flex-wrap: wrap;
-  }
+#banner {
+  display: flex;
+  width: 100%;
+  padding-top: 20rem;
+  color: whitesmoke;
+  flex-wrap: wrap;
+}
 
-  #banner h1 {
-    width: 100%;
-    padding: 0.5rem;
-    padding-left: 1rem;
-    font-size: 4rem;
-    margin: 0;
-  }
+#banner h1 {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 4rem;
+  margin: 0;
+}
 
-  #banner h2 {
-    width: 100%;
-    padding: 0.5rem;
-    padding-left: 1rem;
-    font-size: 3rem;
-    margin: 0;
-  }
+#banner h2 {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
+  margin: 0;
+}
 
-  #about {
-    padding-top: 15rem;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: flex-end; */
-    color: whitesmoke;
-  }
+#about {
+  padding-top: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  color: whitesmoke;
+}
 
-  #about article {
-    display: flex;
-    justify-content: flex-end;
-  }
+#about article {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  #about p {
-    width: 80%;
-    font-size: 1.5rem;    
-    line-height: 3rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    padding: 1.5rem; 
-    margin: 3rem;   
-    display: none;
-  }
+#about p {
+  width: 80%;
+  font-size: 1.5rem;    
+  line-height: 3rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 1.5rem; 
+  margin: 3rem;   
+  display: none;
+}
 
-  .title-div {
-    width: 100%;
-  }
+.title-div {
+  width: 100%;
+}
 
-  .title {
-    background-color: transparent;
-    font-size: 2rem;
-    color: whitesmoke;    
-    position: relative;
-    left: 5rem;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    z-index: 10;
-    
-  }
-
-  .title:hover {
-    color: black;
-    background-color: whitesmoke;
-    cursor: pointer;
-  }
-
-  #about-article {
-    display: none;    
-  }
-
-  #portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 10rem;
-    justify-content: flex-end;
-  }
+.title {
+  background-color: transparent;
+  font-size: 2rem;
+  color: whitesmoke;    
+  position: relative;
+  left: 5rem;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  z-index: 10;
   
-  #portfolio article {
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 1.5rem;
-    margin: 3rem;
-    justify-self: center;
-    border-radius: 10px;
-    display: none;
-  }
+}
+
+.title:hover {
+  color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#about-article {
+  display: none;    
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10rem;
+  justify-content: flex-end;
+}
+
+#portfolio article {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  margin: 3rem;
+  justify-self: center;
+  border-radius: 10px;
+  display: none;
+}
+
+
+#portfolio-list {
+  display: flex;
+  z-index: 10;
+  list-style-type: none;
+  color: whitesmoke;
+  justify-content: space-around;    
+}
+
+#portfolio-list li {
+  padding: 5rem;
+  z-index: 20;
+}
+
+#portfolio-list li a {
+  z-index: 10;
+  list-style-type: none;
+  color: whitesmoke;
+  cursor: pointer;    
+}
+
+.portimg {
+  height: 8rem;
+  width: 8rem;
+}
+#contact {
+  padding-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  color: whitesmoke;
+}
+
+#contact-header {
+  justify-self: flex-start;
+}
+
+#contact-article {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;  
+  margin: 3rem;
+  margin-left: 5rem;
+  justify-self: flex-start;
+  border-radius: 10px;
+  left: 5rem;
+  /* display: none; */
+}
+#contact-article ul {
+  list-style-type: none;
+  color: whitesmoke;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+/* #contact-article ul li {
+  justify-self: center;
+} */
+#contact-article ul a {
   
-
-  #portfolio-list {
-    display: flex;
-    z-index: 10;
-    list-style-type: none;
-    color: whitesmoke;
-    justify-content: space-around;    
-  }
-
-  #portfolio-list li {
-    padding: 5rem;
-  }
-
-  #portfolio-list li a {
-    z-index: 10;
-    list-style-type: none;
-    color: whitesmoke;
-    cursor: pointer;    
-  }
-
-  .portimg {
-    height: 8rem;
-    width: 8rem;
-  }
-
-  /* #portfolio-article {
-    display: none;
-  } */
+  color: whitesmoke;
+}
