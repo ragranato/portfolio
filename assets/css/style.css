@@ -32,7 +32,7 @@ header h2 {
     padding-left: 2rem;
 }
 
-i {
+header i {
   z-index: 10;
   color: navy;
   align-self: center;
@@ -45,6 +45,7 @@ i {
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 2rem;
 }
 #nav-list {
     display: inline-flex;
@@ -196,8 +197,9 @@ i {
   padding-top: 10rem;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   color: whitesmoke;
+  padding-bottom: 10rem;
 }
 
 #contact-header {
@@ -206,26 +208,37 @@ i {
 
 #contact-article {
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 1.5rem;  
+  background-color: rgba(0, 0, 0, 0.4);  
+  padding: 1.5rem;
   margin: 3rem;
   margin-left: 5rem;
-  justify-self: flex-start;
+  justify-content: flex-start;
   border-radius: 10px;
   left: 5rem;
-  /* display: none; */
+  flex-wrap: wrap;
+  display: none;
 }
 #contact-article ul {
   list-style-type: none;
   color: whitesmoke;
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
+  flex-wrap: wrap;  
   margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-/* #contact-article ul li {
-  justify-self: center;
-} */
-#contact-article ul a {
-  
+
+#contact-article ul a {  
   color: whitesmoke;
+  font-size: 1.5rem;
+  margin-right: 5rem;
+}
+#contact-article ul li {
+  z-index: 20;    
+}
+
+#contact-article i {
+  color: whitesmoke;
+  padding-right: 1rem;
 }
