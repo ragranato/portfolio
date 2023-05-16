@@ -30,6 +30,7 @@ header h2 {
     font-size: 1.75rem;
     color: navy;
     padding-left: 2rem;
+    margin-right: 0;
 }
 
 header i {
@@ -38,6 +39,7 @@ header i {
   align-self: center;
   justify-self: flex-start;
   padding-right: 10rem;
+  margin-left: 0;
 }
 
 #header-nav {
@@ -172,6 +174,7 @@ header i {
   justify-self: center;
   border-radius: 10px;
   display: none;
+  flex-wrap: wrap;
 }
 
 
