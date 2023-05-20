@@ -25,6 +25,10 @@ header {
     z-index: 10;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header h2 {
     font-weight: 500;
     font-size: 1.75rem;
@@ -106,14 +110,49 @@ header i {
 #about {
   padding-top: 15rem;
   display: flex;
-  flex-wrap: wrap;
-  /* justify-content: flex-end; */
+  flex-wrap: wrap;  
   color: whitesmoke;
 }
 
+
 #about article {
+  display: none;  
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+
+#about-div {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+#about-section h5 {
+  font-size: 2rem;
+  text-align: center; 
+}
+
+.skills {
+  margin-bottom: 10rem;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience ul{  
+  margin-left: 18rem;  
+}
+
+
+
+#self {
+  height: 18rem;
+  width: 15rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 5rem;
 }
 
 #about-article a {
@@ -127,9 +166,7 @@ header i {
   line-height: 3rem;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  padding: 1.5rem; 
-  margin: 3rem;   
-  display: none;
+  padding: 1.5rem;   
 }
 
 .title-div {
