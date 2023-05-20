@@ -258,7 +258,7 @@ header i {
   padding: 1.5rem;
   margin: 3rem;
   margin-left: 5rem;
-  justify-content: flex-start;
+  justify-content: space-around;
   border-radius: 10px;
   left: 5rem;
   flex-wrap: wrap;
