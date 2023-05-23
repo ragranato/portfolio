@@ -220,7 +220,7 @@ header i {
   z-index: 10;
   list-style-type: none;
   color: whitesmoke;
-  justify-content: space-around;    
+  justify-content: space-between;    
 }
 
 #portfolio-list li {
@@ -258,7 +258,7 @@ header i {
   padding: 1.5rem;
   margin: 3rem;
   margin-left: 5rem;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
   left: 5rem;
   flex-wrap: wrap;
@@ -267,7 +267,7 @@ header i {
 #contact-article ul {
   list-style-type: none;
   color: whitesmoke;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;  
   margin: 0;
