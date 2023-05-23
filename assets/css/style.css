@@ -223,8 +223,12 @@ header i {
   justify-content: space-between;    
 }
 
+#portfolio-list ul {
+  justify-content: space-between;
+}
+
 #portfolio-list li {
-  padding: 5rem;
+  padding: 5rem;  
   z-index: 20;
 }
 
@@ -258,7 +262,7 @@ header i {
   padding: 1.5rem;
   margin: 3rem;
   margin-left: 5rem;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 10px;
   left: 5rem;
   flex-wrap: wrap;
@@ -281,7 +285,7 @@ header i {
   margin-right: 5rem;
 }
 #contact-article ul li {
-  z-index: 20;    
+  z-index: 20;      
 }
 
 #contact-article i {
