@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     font-family: monospace;
+    --neon-text-color: #f40;
+    --neon-border-color: #08f;
 }
 
 body {
@@ -51,8 +53,9 @@ header i {
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 2rem;
+    padding-right: 2rem;    
 }
+
 #nav-list {
     display: inline-flex;
     list-style-type: none;
@@ -66,8 +69,11 @@ header i {
 .header-link {
     text-decoration: none;
     color: midnightblue;
-    font-size: 1.5rem;
-}
+    font-size: 1.75rem;  
+    padding: 0.5rem;    
+}    
+
+ 
 
 #overlay {
     position: fixed; /* Sit on top of the page content */
