@@ -14,8 +14,11 @@
     <header>
         <h2>RG</h2>
         <i class="fa-solid fa-fire fa-2xl"></i>
-        <nav id="header-nav">
+        <nav id="header-nav" class="topnav">
             <ul id="nav-list">
+                <li>
+                    <a class='header-link' href="#" title="Home">Home</a>
+                </li>
                 <li><a class='header-link' href="#about-header" title="Click for more info"
                         onclick="toggle('about-article')">About</a></li>
                 <li><a class='header-link' href="#portfolio-header" title="My Work"
@@ -23,14 +26,20 @@
                 <li><a class='header-link' href="assets\img\RAG_resume.pdf" title="Resume" target="_blank">Resume</a>
                 </li>
                 <li><a class='header-link' href="#contact-header" title="Get in Touch"
-                        onclick="toggle('contact-article')">Contact</a></li>
+                        onclick="toggle('contact-article')">Contact</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+                        <i class="fa fa-bars fa-2xl"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
     <div id="overlay"></div>
     <main>
         <section id="banner">
-            <h1>Roberto Granato.</h1>
+            <h1 class="neon">Roberto Granato.</h1>
             <h2>Web Developer based in Massapequa, NY.<br>HTML/CSS, JavaScript, React.js.</h2>
         </section>
         <section id="about">
